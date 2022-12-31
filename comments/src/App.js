@@ -33,6 +33,14 @@ function App() {
                     testimonio="Lider de gimnasio oficial de la liga pokemón, es fuerte con pokemon tipo roca,
                       tiene un temperamento amigable, le gusta cuidar de sus amigos y pokemon, se unira a la aventura de ash hacia la liga pokemón."
                 />
+                <Testimonio
+                    nombre="Gary Oak"
+                    pais="Japon"
+                    imagen="gary"
+                    cargo="Entrenador"
+                    testimonio="Entrenador de pueblo paleta y rival directo de Ash, su misión es hacerse con la liga pokemon, es nieto
+                      del profesor Oak un importante investigador pokemon."
+                />
             </div>
         </div>
     );
