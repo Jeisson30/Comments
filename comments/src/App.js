@@ -1,10 +1,21 @@
 //import logo from './logo.svg';
 import "./App.css";
+import logoPrincipal from "../src/imagenes/logo-1.jpg"; //importamos el logo para usarlo en la vista
 import { Testimonio } from "./componentes/comentarios/Testimonio";
+import { Clicks } from "./componentes/clicksProyecto/Clicks";
 
 function App() {
     return (
         <div className="App">
+            <div className="logo-contenedor">
+                <img
+                    className="logo-principal"
+                    src={logoPrincipal}
+                    alt="logo principal page"
+                />
+                <h2>Contador de clicks</h2>
+                <Clicks />
+            </div>
             <div className="contenedor-principal">
                 <h1>Información entrenadores registrados</h1>
                 <Testimonio

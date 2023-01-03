@@ -29,3 +29,11 @@ h1 {
   justify-content: center;
   text-align: center;
 }
+.logo-contenedor {
+  width: 90%;
+}
+.logo-principal {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 30px;
+}
