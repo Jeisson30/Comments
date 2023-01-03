@@ -3,6 +3,7 @@ import "./App.css";
 import logoPrincipal from "../src/imagenes/logo-1.jpg"; //importamos el logo para usarlo en la vista
 import { Testimonio } from "./componentes/comentarios/Testimonio";
 import { Clicks } from "./componentes/clicksProyecto/Clicks";
+import { Calculadora } from "./componentes/calculadora/Calculadora";
 
 function App() {
     return (
@@ -15,6 +16,14 @@ function App() {
                 />
                 <h2>Contador de clicks</h2>
                 <Clicks />
+            </div>
+            <div>
+                <h2
+                    style={{ color: "orange", marginBottom: 50, marginTop: 50 }}
+                >
+                    Calculadora
+                </h2>
+                <Calculadora />
             </div>
             <div className="contenedor-principal">
                 <h1>Información entrenadores registrados</h1>
