@@ -4,6 +4,7 @@ import logoPrincipal from "../src/imagenes/logo-1.jpg"; //importamos el logo par
 import { Testimonio } from "./componentes/comentarios/Testimonio";
 import { Clicks } from "./componentes/clicksProyecto/Clicks";
 import { Calculadora } from "./componentes/calculadora/Calculadora";
+import { Tareas } from "./componentes/tareas/Tareas";
 
 function App() {
     return (
@@ -16,6 +17,8 @@ function App() {
                 />
                 <h2>Contador de clicks</h2>
                 <Clicks />
+                <h2 className="task">Listado de tareas</h2>
+                <Tareas />
             </div>
             <div>
                 <h2
